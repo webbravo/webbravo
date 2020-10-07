@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+## - 🔭 I’m currently working on 
+I'm currently working on 2 Saas products one is a Fintech app while the other is blockchain app.
+
+## - 🌱 I’m currently learning ...
+I am learning how to use Flutter with firebase and how to create that investor love.
+
+
 <!--
 **webbravo/webbravo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
