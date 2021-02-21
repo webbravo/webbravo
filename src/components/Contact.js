@@ -37,7 +37,7 @@ const Contact = () => {
               </p>
             </header>
             <a
-              href="https://api.whatsapp.com/send?phone=2349055144202&text=Hi+I+would+like+to+design+a+website"
+              href="https://api.whatsapp.com/send?phone=23408062416692&text=Hi+I+would+like+to+design+a+website"
               class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-16 font-weight-bold ltr-sp-05 px-2"
             >
               <span>
