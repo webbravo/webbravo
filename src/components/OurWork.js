@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const OurWork = () => {
   return (
-    <section class="vc_row pt-100 pb-100">
+    <section class="vc_row pt-100 pb-100 bg-light">
       <div class="container">
         <div class="row">
           <div class="lqd-column col-md-12">
