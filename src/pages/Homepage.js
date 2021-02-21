@@ -1,15 +1,15 @@
 import React from "react";
 import AppContainer from "../components/AppContainer";
 import MainBanner from "../components/MainBanner";
-import { FactOne } from "../components/Fact";
-import CallToAction from "../components/common/CallToAction";
+import About from "../components/AboutUs";
+import Services from "../components/Services";
 
 const Homepage = () => {
   return (
     <AppContainer>
       <MainBanner />
-      <FactOne />
-      <CallToAction />
+      <About />
+      <Services />
     </AppContainer>
   );
 };

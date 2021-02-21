@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import "./App.css";
-import Preloader from "./components/common/Preloader";
 import Homepage from "./pages/Homepage.js";
 import FourOFour from "./pages/FourOFour";
 
@@ -13,7 +12,7 @@ import {
 
 const AppRoutes = () => {
   return (
-    <Suspense fallback={<Preloader />}>
+    <Suspense>
       <Switch>
         <Route exact path="/admin">
           <Redirect to="dashboard.heroku.com" />

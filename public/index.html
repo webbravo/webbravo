@@ -5,11 +5,13 @@
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
+  <meta name="theme-color" content="#3ed2a7">
+  <link rel="shortcut icon" href="../src/assets/img/logo/black-icon.png" />
   <meta name="description" content="Webbravo - Innovation inspired - Your Digital partner" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
 
   <title>Webbravo - Innovation inspired - Your Digital partner </title>
 
@@ -28,6 +30,7 @@
   <meta property="og:image"
     content="https://webbravo.co/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
+
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://webbravo.co/">
@@ -36,13 +39,71 @@
     content="We help you design, build and launch innovative digital products, such as Mobile apps, Website, Chatbot E-commerce and Blockchain app - Crypto-currencies.">
   <meta property="twitter:image"
     content="https://webbravo.co/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+
+  <script async src="%PUBLIC_URL%/assets/vendors/modernizr.min.js"></script>
+
+
 </head>
 
-<body>
-  <div id="root"></div>
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="minimal"
+  data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+  <div id="wrap">
+    <!-- The root tag for the react app -->
+    <div id="root"></div>
+    <!-- =========  Root tag ======== -->
+  </div>
+
+  <script src="%PUBLIC_URL%/assets/vendors/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/theme-vendors.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/theme.min.js"></script>
+
+  <style type="text/css">
+    .lqd-buy-now {
+      position: fixed;
+      right: 30px;
+      bottom: 30px;
+      z-index: 999;
+    }
+
+    .lqd-buy-now-btn {
+      display: inline-flex;
+      padding: 15px 30px;
+      align-items: center;
+      border: none;
+      border-radius: 50em;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      font-size: 15px;
+      line-height: 1.5em;
+      color: #000;
+      transition: all 0.3s;
+    }
+
+    .lqd-buy-now-btn svg {
+      margin-right: 12px;
+    }
+
+    .lqd-buy-now-btn:hover {
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .lqd-buy-now-btn:hover svg {
+      fill: currentColor;
+    }
+  </style>
+
+  <a href="https://api.whatsapp.com/send?phone=2349055144202&text=Hi+I+would+like+to+design+a+website">
+    <svg viewBox="0 0 32 32" class="whatsapp-ico">
+      <path
+        d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
+        fill-rule="evenodd"></path>
+    </svg>
+  </a>
 </body>
-<script src="../src/assets/js/jquery.js"></script>
-<script src="../src/assets/js/plugins.js" defer></script>
-<script src="../src/assets/js/jquery.main.js" defer></script>
+
+
 
 </html>

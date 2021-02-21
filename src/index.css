@@ -1,6 +1,12 @@
-@import "assets/css/bootstrap.css";
-@import "assets/css/fonts-icons.css";
-@import "assets/css/plugin-resets.css";
-@import "assets/css/style.css";
-@import "assets/css/responsive.css";
-@import "assets/css/color.css";
+@import "assets/vendors/liquid-icon/liquid-icon.min.css";
+@import "assets/css/theme-vendors.min.css";
+@import "assets/css/theme.min.css";
+@import "assets/css/themes/digital-agency.css";
+@import "assets/css/logo.css";
+
+/*<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
+	<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+	<link rel="stylesheet" href="assets/css/theme.min.css" />
+	<link rel="stylesheet" href="assets/css/themes/digital-agency.css" />
+	<link rel="stylesheet" href="assets/css/logo.css" />
+ */
