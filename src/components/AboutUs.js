@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo_black from "../assets/img/logo/black-icon.png";
 
 const About = () => {
   return (
@@ -13,7 +12,11 @@ const About = () => {
             data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":31,"translateZ":-108,"opacity":0},"animations":{"translateY":0,"translateZ":0,"opacity":1}}'
           >
             <figure>
-              <img src={logo_black} id="logo" alt="Webbravo" />
+              <img
+                src="assets/img/logo/black-icon.png"
+                id="logo"
+                alt="Webbravo"
+              />
             </figure>
             <h2
               className="mt-2 mb-3 font-weight-normal lh-1"

@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo_default from "../../assets/img/logo/white-icon.png";
-import logo_black from "../../assets/img/logo/black-icon.png";
 
 export default function Logo() {
   return (
@@ -10,13 +8,13 @@ export default function Logo() {
         <img
           className="mobile-logo-default"
           id="logo"
-          src={logo_black}
+          src="assets/img/logo/black-icon.png"
           alt="Webbravo Mobile Logo"
         />
         <img
           className="logo-default"
           id="logo"
-          src={logo_default}
+          src="assets/img/logo/white-icon.png"
           alt="Webbravo Logo"
         />
       </span>
